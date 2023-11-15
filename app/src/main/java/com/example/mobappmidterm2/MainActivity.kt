@@ -28,7 +28,6 @@ import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
-import com.example.mobappmidterm2.ui.theme.MobAppMidterm2Theme
 
 class MainActivity : ComponentActivity() {
 
@@ -51,7 +50,7 @@ class MainActivity : ComponentActivity() {
                     )
 
                     if (it.isNullOrEmpty()) {
-                        Text(text = "Loading cities...",
+                        Text(text = "Loading Users...",
                             style = MaterialTheme.typography.headlineLarge.copy(
                                 fontSize = 20.sp,
                                 fontWeight = FontWeight.Bold
